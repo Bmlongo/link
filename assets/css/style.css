@@ -1,0 +1,194 @@
+body,
+html {
+	font-family: 'Raleway', sans-serif;
+	background: #F5F5F5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 600;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-weight: 300;
+}
+
+.desktop {
+	width: 500px
+}
+
+.titulo {
+	color: #545454;
+	font-weight: 600;
+	font-size: 28px;
+}
+
+.btn {
+	border-radius: 25px;
+	font-weight: 800;
+}
+
+.card {
+	height: 100px;
+	border: none;
+	border-radius: 13px;
+	-webkit-box-shadow: 2px 4px 47px -15px rgba(179, 179, 179, 0.64);
+	-moz-box-shadow: 2px 4px 47px -15px rgba(179, 179, 179, 0.64);
+	box-shadow: 2px 4px 47px -15px rgba(179, 179, 179, 0.64);
+}
+
+.img-square-wrapper {
+	height: 100px;
+	width: 100px
+}
+
+.img-square-wrapper img {
+	height: 100px;
+	width: 100px
+}
+
+.card-horizontal {
+	display: flex;
+	flex: 1 1 auto;
+}
+
+.link-arrow {
+	font-size: 22px;
+}
+
+.social a {
+	padding: 10px;
+	font-size: 24px;
+	color: #42873E;
+	margin-top: 25px
+}
+
+.banner {
+	border-radius: 13px 0 0 13px;
+}
+
+.card-body {
+	padding: 20px
+}
+
+
+/* BANNER 1 */
+.banner-1 {
+	background: #284623;
+	border-radius: 0 0 13px 13px;
+}
+
+.titulo-1 {
+	color: #FFFFFF;
+	font-size: 28px;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.texto-1 {
+	font-size: 20px;
+	font-weight: 300;
+	color: #FFFFFF;
+	width: 100%;
+}
+
+.botao-1 {
+	color: #284623;
+}
+
+/* BANNER 2 */
+
+.titulo-2 {
+	color: #75B938;
+	font-size: 22px;
+	text-align: left;
+	font-weight: 800
+}
+
+.texto-2 {
+	color: #000;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.botao-2 {
+	color: #75B938;
+}
+
+.titulo-3 {
+	color: #412203;
+	font-size: 22px;
+	text-align: left;
+	font-weight: 800
+}
+
+/* MOBILE */
+
+@media (max-width: 500px) {
+
+	.desktop {
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 42px;
+	}
+
+	p {
+		font-size: 18px;
+		font-weight: 500;
+	}
+
+	.card-body {
+		padding: 10px 0 0 17px;
+		margin-top: 15px
+	}
+
+	/* BANNER 1 */
+	.titulo-1 {
+		font-size: 32px
+	}
+
+	.texto-1 {
+		font-size: 24px;
+		font-weight: 300;
+	}
+
+	.botao-1 {
+		color: #284623;
+		font-size: 22px
+	}
+
+	.titulo-2 {
+		color: #75B938;
+		font-size: 20px;
+		text-align: left;
+		font-weight: 800
+	}
+
+	.texto-2 {
+		color: #000;
+		font-size: 12px;
+		font-weight: 500;
+	}
+
+	.botao-2 {
+		color: #75B938;
+	}
+
+	.titulo-3 {
+		color: #412203;
+		font-size: 21px;
+		text-align: left;
+		font-weight: 800
+	}
+}
